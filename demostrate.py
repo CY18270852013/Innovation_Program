@@ -1,0 +1,1 @@
+print(list(range(1, 11)), list(range(10, 0, -1)), list(range(2, 21, 2)), list(range(5, 51, 5)), sep = '\n')

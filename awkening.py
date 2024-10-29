@@ -1,0 +1,8 @@
+a = dict([('China', 'Chinese'), ('France', 'French'), ('USA', 'English'), ('Germany', 'German')])
+print(a.keys())
+print(a.values())
+print(a.items())
+print(a.get('France'))
+b = dict([('Spain', 'Spanish'), ('Japan', 'Japanese')])
+a.update(b)
+print(a)
